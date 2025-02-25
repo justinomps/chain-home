@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+const { useEffect } = React;
 import { RADAR_CONSTANTS } from '../constants';
 
 const HeightFinding = ({ 
