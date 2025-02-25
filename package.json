@@ -1,6 +1,21 @@
 {
+  "name": "chain-home-radar",
+  "version": "1.0.0",
+  "description": "Chain Home Radar Simulation",
+  "main": "index.js",
   "scripts": {
-    "build": "rollup -c",
-    "watch": "rollup -c -w"
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "rollup": "^2.78.0",
+    "rollup-plugin-terser": "^7.0.2"
   }
 }
