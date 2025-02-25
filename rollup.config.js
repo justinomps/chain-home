@@ -12,8 +12,9 @@ export default {
   plugins: [
     resolve(),
     babel({
-      babelHelpers: 'bundled',
-      presets: ['@babel/preset-react']
+      babelHelpers: 'runtime',
+      presets: ['@babel/preset-react'],
+      plugins: ['@babel/plugin-transform-runtime']
     }),
     terser()
   ]
