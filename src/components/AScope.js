@@ -1,5 +1,5 @@
 import React from 'react';
-const { useEffect } = React;
+const useEffect = React.useEffect;
 import { RADAR_CONSTANTS } from '../constants.js';
 
 const AScope = ({ canvasRef, targets, goniometerAngle, isPowered, sweepPosition, selectedFrequency, previousTraces, getSignalStrength, setPreviousTraces }) => {
