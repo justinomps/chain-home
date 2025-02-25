@@ -1,5 +1,5 @@
-import React from 'react';
-const { useState, useEffect } = React;
+import * as React from 'react';
+const useEffect = React.useEffect;
 import { RADAR_CONSTANTS } from '../constants';
 import { createTarget, updateTargets } from '../targetManager';
 
