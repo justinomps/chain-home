@@ -1,6 +1,5 @@
 import * as React from 'react';
 const useEffect = React.useEffect;
-const { useEffect } = React;
 import { RADAR_CONSTANTS } from '../constants';
 
 const PlanView = ({ 
