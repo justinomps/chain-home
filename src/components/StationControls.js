@@ -1,4 +1,5 @@
-import React from 'react';
+import * as React from 'react';
+const useEffect = React.useEffect;
 
 const StationControls = ({
   isPowered, 
